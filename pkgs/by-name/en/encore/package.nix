@@ -6,7 +6,7 @@
 }:
 stdenv.mkDerivation (finalAttrs: {
   pname = "encore";
-  version = "1.39.3";
+  version = "1.40.5";
 
   src =
     let
