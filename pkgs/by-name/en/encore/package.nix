@@ -23,7 +23,7 @@ stdenv.mkDerivation (finalAttrs: {
     in
     builtins.fetchurl {
       url = "https://d2f391esomvqpi.cloudfront.net/encore-${finalAttrs.version}-${goos}_${goarch}.tar.gz";
-      sha256 = "05abmp45rym9g7n1l1935bpzm8a6vjnv0kpv9aj3kidssll18s3x";
+      sha256 = "0jm55g2zxki41rai8ady7khmlm3wh4y5ikkw3sjd0pnadp1p3kq8";
     };
 
   nativeBuildInputs = [
